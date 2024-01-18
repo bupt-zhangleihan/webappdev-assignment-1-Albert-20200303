@@ -1,0 +1,33 @@
+Number：ID、price、quantity,discount；
+String：name,type；
+Object：product;
+array: cart
+
+let items = {  
+  id: "411",  //number
+  name: "Macbook Pro 2020",  //string
+  type: "laptop",  //string
+  price: 9999,  //number
+  quantity: 1,  //number
+  discount:0.2 //number
+};
+
+//array
+let cart = [  
+  {  
+    id: "0",  
+    name: "iPhone 15 Pro",  
+    model: "mobile phone",  
+    price: 7999,  
+    quantity: 2,  
+    discount_rate:0.05  
+  },  
+  {  
+    id: "1",  
+    name: "iPhone 15",  
+    model: "mobile phone",  
+    price: 5999,  
+    quantity: 1,  
+    discount_rate:0.1  
+  }  
+];
